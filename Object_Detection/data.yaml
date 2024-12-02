@@ -1,0 +1,13 @@
+train: C:/Users/usuario/Documents/Luis Adrian Cabrera/ICE 2026/Semestre 7/Proyecto_Final/Detection/Waste/train/images
+val: C:/Users/usuario/Documents/Luis Adrian Cabrera/ICE 2026/Semestre 7/Proyecto_Final/Detection/Waste/valid/images
+test: C:/Users/usuario/Documents/Luis Adrian Cabrera/ICE 2026/Semestre 7/Proyecto_Final/Detection/Waste/test/images
+
+nc: 32
+names: ['Apple', 'Apple-core', 'Apple-peel', 'Bone', 'Bone-fish', 'Bread', 'Bun', 'Egg-hard', 'Egg-scramble', 'Egg-shell', 'Egg-steam', 'Egg-yolk', 'Fish', 'Meat', 'Mussel', 'Mussel-shell', 'Noodle', 'Orange', 'Orange-peel', 'Other-waste', 'Pancake', 'Pasta', 'Pear', 'Pear-core', 'Pear-peel', 'Potato', 'Rice', 'Shrimp', 'Shrimp-shell', 'Tofu', 'Tomato', 'Vegetable']
+
+roboflow:
+  workspace: detection-mdayg
+  project: organic-waste-detection
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/detection-mdayg/organic-waste-detection/dataset/2
